@@ -1,0 +1,13 @@
+<template>
+    <c-generic-look-up obj-name="Account" 
+    custom-label="Select account names"
+     icon-name="standard:account" 
+     onvalueselected={handleSelection}></c-generic-look-up>
+
+     <c-generic-look-up obj-name="Contact" 
+     custom-label="Select contact names"
+      multi-select
+      icon-name="standard:contact" 
+      onvalueselected={handleSelection}></c-generic-look-up>
+
+</template>
